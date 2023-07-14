@@ -1,3 +1,9 @@
+const styles = `
+div {
+  white-space: pre-wrap;
+} 
+`;
+
 function ProductCategoryRow({ category }) {
   return (
     <tr>
@@ -57,8 +63,10 @@ function ProductTable({ products }) {
 
 function SearchBar() {
   return (
-    <form>
-      <input type="text" placeholder="Search..." />
+    <form style={{styles}}>
+      <div>
+        <input type="text" placeholder="Search..." />
+      </div>
       <label>
         <input type="checkbox" />
         {' '}
