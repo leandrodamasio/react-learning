@@ -104,7 +104,9 @@ function SearchBar({
           checked={inStockOnly} 
           onChange={(e) => onInStockOnlyChange(e.target.checked)} />
         {' '}
+        <div>
         Only show products in stock
+        </div>
       </label>
     </form>
   );

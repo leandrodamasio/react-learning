@@ -12,6 +12,6 @@ code {
     monospace;
 }
 
-div {
+.div {
   white-space: pre-wrap;
 } 
